@@ -38,7 +38,7 @@ protected:
 	int WallCheckTraceAmount = 3;
 
 	UPROPERTY(EditAnywhere, BlueprintReadOnly)
-	float MaxDistanceToWall = 100.f;
+	float MaxDistanceToWall = 150.f;
 
 public:
 	bool DetectWall(OUT FWall& Wall);
